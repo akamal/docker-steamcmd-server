@@ -68,4 +68,4 @@ chmod -R 777 ${DATA_DIR}
 echo "---Server ready---"
 
 echo "---Start Server---"
-${SERVER_DIR}/srcds_run -game ${GAME_NAME} ${GAME_PARAMS} +port ${GAME_PORT}
+${SERVER_DIR}/go.sh ${GAME_PARAMS}
